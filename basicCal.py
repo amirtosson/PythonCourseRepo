@@ -6,9 +6,26 @@ Created on Wed Dec 21 17:33:42 2022
 """
 
 class BasicCal:
+
+    def sum_two_nums(self, num1, num2):
+        res = num1 + num2
+        print(res)
+        return res
     
-    def test_print(self):
-        print("It works Basic Cal")
-        
-        
+    def subtract_two_nums(self, num1, num2):
+        res = num1 - num2
+        print(res)
+        return res
     
+    def multi_two_nums(self, num1, num2):
+        res = num1 * num2
+        print(res)
+        return res
+    
+    def divide_two_nums(self, num1, num2):
+        if num2 == 0:
+            print("wrong input")
+            return 0
+        res = num1 / num2
+        print(res)
+        return res
